@@ -1,0 +1,7 @@
+# uvadm_project
+Home of the UV-ADM Project
+
+Folder "uvadm_main_v6" contains a current *clean* copy of the UV-ADM code (version 6).
+Do not change the files in this folder unless your name is Christi or Vero.
+
+Folder "resolution_tests" contains files useful for resolution testing of UV-ADM code.
