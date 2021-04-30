@@ -5,3 +5,10 @@ Folder "uvadm_main_v6" contains a current *clean* copy of the UV-ADM code (versi
 Do not change the files in this folder unless your name is Christi or Vero.
 
 Folder "resolution_tests" contains files useful for resolution testing of UV-ADM code.
+
+Folder "uvadm_main_v5" is UV-ADM code, version 5.
+This is the same code in v6, but minus the update to support synthetic StokesV profiles.
+
+Folder "uvadm_asif3Dmhd" contains files for creating synthetic StokesV profiles 
+using uvadm's radiative transfer scheme coupled with Asif's 3D-MHD sim of 
+magnetosphere of th1OriC.
