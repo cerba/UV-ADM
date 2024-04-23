@@ -1,14 +1,20 @@
-# uvadm_project
-Home of the UV-ADM Project
+# Welcome! 
 
-Folder "uvadm_main_v6" contains a current *clean* copy of the UV-ADM code (version 6).
-Do not change the files in this folder unless your name is Christi or Vero.
+This repository contains the `UV-ADM` code published in Erba et al. (2021), MNRAS 506.4, 5373. 
+Results from this code and project have been highlighted in other publications, posters, talks, workshops, etc.
 
-Folder "resolution_tests" contains files useful for resolution testing of UV-ADM code.
+For more information, contact: christi.erba@gmail.com.
 
-Folder "uvadm_main_v5" is UV-ADM code, version 5.
-This is the same code in v6, but minus the update to support synthetic StokesV profiles.
+# To run the code:
+  `adm_basecode_master.py` contains the functions governing the velocity, density, magnetic, etc. parameters of the model. 
+  Do NOT change this file (unless you know what you're doing, and then do so with extreme caution!).
+  
+  `indat_master.py` contains all the input parameters needed to run a model (generating a single synthetic line profile).
 
-Folder "uvadm_asif3Dmhd" contains files for creating synthetic StokesV profiles 
-using uvadm's radiative transfer scheme coupled with Asif's 3D-MHD sim of 
-magnetosphere of th1OriC.
+  `adm_full_v6.py` is the file used to generate the synthetic line profile (model). 
+  This version (6) also contains code to generate synthetic Stokes V profiles.
+
+  The `shock_retreat_parameters` directory contains the reference files the code needs to run a full model.
+  Currently, the code supports models using $\chi_{\infty} = 0.01, 0.1, 0.0, 1.0, 10.0$ only. Contact the author for additional applications.
+
+
